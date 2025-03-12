@@ -2,8 +2,8 @@
 
 *A curated collection of PowerShell scripts and knowledge to automate Windows tasks, improve performance, and troubleshoot common issues.*  
 
-![GitHub repo size](https://img.shields.io/github/repo-size/anavasconcelos/fromzero-tohero-powershell)  
-![GitHub license](https://img.shields.io/github/license/anavasconcelos/fromzero-tohero-powershell)  
+![GitHub repo size](https://img.shields.io/github/repo-size/aflaviarv/fromzero-tohero-powershell)  
+![GitHub license](https://img.shields.io/github/license/aflaviarv/fromzero-tohero-powershell)  
 
 ---
 
