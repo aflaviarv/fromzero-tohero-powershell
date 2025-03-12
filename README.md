@@ -102,5 +102,3 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 1. **Clone this repository** to explore the scripts.  
 2. **Check the category-specific README files** for usage details.  
 3. **Contribute with new scripts or improvements!** 🚀  
-```
-
