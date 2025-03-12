@@ -1,14 +1,14 @@
-# Define o caminho para salvar o arquivo de saída
+# Define the path to save the output file
 $outputFile = "$env:USERPROFILE\Desktop\system_info.txt"
 
-# Coleta informações do sistema
+# Collect system information
 $systemInfo = Get-ComputerInfo | Select-Object CsName, WindowsVersion, OsArchitecture, CsManufacturer, CsModel, BiosSeralNumber, CsTotalPhysicalMemory
 $cpuInfo = Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed
 $gpuInfo = Get-CimInstance Win32_VideoController | Select-Object Name, AdapterRAM
 $diskInfo = Get-PhysicalDisk | Select-Object MediaType, Size, Model
 $ramInfo = Get-CimInstance Win32_PhysicalMemory | Select-Object Manufacturer, Capacity, Speed
 
-# Formata as informações em texto
+# Format the information as text
 $output = @"
 ===========================
   SYSTEM INFORMATION
@@ -53,8 +53,8 @@ $($ramInfo | ForEach-Object { "Manufacturer: $($_.Manufacturer) - Capacity: $([m
 ===========================
 "@
 
-# Salva as informações no arquivo
+# Save the information to the file
 $output | Out-File -Encoding UTF8 -FilePath $outputFile
 
-# Exibe mensagem de sucesso
+# Display success message
 Write-Host "System information exported to $outputFile" -ForegroundColor Green
