@@ -1,9 +1,11 @@
-# 🚀 fromzero-tohero-powershell  
+# 🚀 From Zero to Hero - PowerShell 
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0F66CE&width=435&lines=Improving+your+Windows;Powershell+Insights)](https://git.io/typing-svg)
 
 *A curated collection of PowerShell scripts and knowledge to automate Windows tasks, improve performance, and troubleshoot common issues.*  
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/aflaviarv/fromzero-tohero-powershell)  
-![GitHub license](https://img.shields.io/github/license/aflaviarv/fromzero-tohero-powershell)  
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/aflaviarv/fromzero-tohero-powershell?color=green)
 
 ---
 
