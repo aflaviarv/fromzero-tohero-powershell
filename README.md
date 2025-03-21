@@ -10,7 +10,7 @@
 ---
 
 ## 📌 About  
-This repository is **not a structured PowerShell learning path**, but rather a **collection of useful knowledge, automation scripts, and insights** based on real-world experiences.  
+This repository is **not a structured PowerShell learning path**, but rather a **collection of useful knowledge, experience, automation scripts, and insights** based on real-world experiences.  
 
 It serves as a **knowledge hub** where I consolidate PowerShell concepts, automations, and best practices that I find useful in my workflow.  
 
